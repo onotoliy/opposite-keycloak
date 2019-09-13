@@ -2,7 +2,7 @@ FROM jboss/keycloak:6.0.1
 
 ENV JBOSS_HOME /opt/jboss/keycloak
 ENV THEMES_HOME $JBOSS_HOME/themes
-ENV THEMES_VERSION 0.1.2
+ENV THEMES_VERSION 0.1.3
 ENV THEMES_TMP /tmp/keycloak-theme
 ENV BINTRAY_URL https://dl.bintray.com/a-k-pohresniy/onotoliy
 
